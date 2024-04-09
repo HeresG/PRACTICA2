@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFR Călători</title>
+  <link rel="stylesheet" href="home.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+  <div class="container">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="home.html">Acasa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="rezervă.html">Rezervă</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="despre.html">Despre noi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galerie.html">Galerie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Log in</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+<!-- Navbar End -->
+
+<!-- Bootstrap Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <!-- Rezerva -->
+ <section class="book" id="book">
+    <div class="container">
+  
+      <div class="card">
+        <div class="main-text">
+          <h1>Rezervă</h1>
+        </div>
+        <div class="row">
+          <div class="col py-3 py-md-0">
+            <form action="#">
+              
+              <input type="text" class="form-control" name="origine" placeholder="De la:" required><br>
+              <input type="text" class="form-control" name="destinatie" placeholder="Pana la:" required><br>
+              <label for="data">Data plecării:</label>
+              <input type="date" class="form-control" name="data" placeholder="Data plecării:" required><br>
+              <label for="data">Data sosirii:</label>
+              <input type="date" class="form-control" name="dataSosire" placeholder="Data sosirii:" required><br>
+              <input type="submit" value="Caută bilete" class="submit" required>
+              <button class="btn btn-primary" type="button" enabled>
+                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                <span role="status">Caută bilete</span>
+              </button>
+        
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <!-- Footer Start -->
+  <footer id="footer">
+
+    <div class="social-links">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+
+    <div class="copyright">
+      <p>&copy; 2024 Bilete de tren</p>
+    </div>
+  </footer>

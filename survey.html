@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFR Călători</title>
+  <link rel="stylesheet" href="home.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="home.html">Acasa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="rezervă.html">Rezervă</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="despre.html">Despre noi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galerie.html">Galerie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Log in</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+<!-- Navbar End -->
+
+<!-- Bootstrap Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Chestionar</title>
+    <!-- Adăugați orice stiluri CSS sau alte fișiere JavaScript necesare pentru pagina de chestionar -->
+</head><style>/* Stilizare generală */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1, h2, h3 {
+        color: #333;
+    }
+    
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    input[type="email"],
+    input[type="text"],
+    input[type="date"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+    
+    input[type="checkbox"] {
+        margin-right: 5px;
+    }
+    
+    </style>
+
+
+
+
+<body>
+    <h1>Stimate călător,</h1>
+    <h2>Completând acest chestionar ne ajutați să fim mai buni pentru dumneavoastră.</h2>
+    <h3>Împreună REUȘIM!</h3>
+    <form>
+        <label for="email">E-mail contact *</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="trainNumber">Număr tren *</label>
+        <input type="text" id="trainNumber" name="trainNumber" required><br>
+
+        <label for="departureStation">Stația de plecare *</label>
+        <input type="text" id="departureStation" name="departureStation" required><br>
+
+        <label for="arrivalStation">Stația de sosire *</label>
+        <input type="text" id="arrivalStation" name="arrivalStation" required><br>
+
+        <label for="travelDate">Data călătoriei *</label>
+        <input type="date" id="travelDate" name="travelDate" required><br>
+
+        <label for="ticketNumber">Număr bilet</label>
+        <input type="text" id="ticketNumber" name="ticketNumber"><br>
+
+        <h3>Ce părere aveți despre personalul care vinde bilete?</h3>
+        <label>Disponibilitatea personalului</label><br>
+        <input type="radio" name="ticketSalesAvailability" value="Mult peste așteptări"> Mult peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="Peste așteptări"> Peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="La nivelul așteptărilor"> La nivelul așteptărilor<br>
+        <input type="radio" name="ticketSalesAvailability" value="Sub așteptări"> Sub așteptări<br>
+
+        <label>Amabilitatea personalului</label><br>
+        <input type="radio" name="ticketSalesAvailability" value="Mult peste așteptări"> Mult peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="Peste așteptări"> Peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="La nivelul așteptărilor"> La nivelul așteptărilor<br>
+        <input type="radio" name="ticketSalesAvailability" value="Sub așteptări"> Sub așteptări<br>
+
+        <label>Ținuta personalului</label><br>
+        <input type="radio" name="ticketSalesAvailability" value="Mult peste așteptări"> Mult peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="Peste așteptări"> Peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="La nivelul așteptărilor"> La nivelul așteptărilor<br>
+        <input type="radio" name="ticketSalesAvailability" value="Sub așteptări"> Sub așteptări<br>
+        
+        <h3>Ce părere aveți despre personalul de tren?</h3>
+        <label>Disponibilitatea personalului</label><br>
+        <input type="radio" name="ticketSalesAvailability" value="Mult peste așteptări"> Mult peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="Peste așteptări"> Peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="La nivelul așteptărilor"> La nivelul așteptărilor<br>
+        <input type="radio" name="ticketSalesAvailability" value="Sub așteptări"> Sub așteptări<br>
+
+        <label>Amabilitatea personalului</label><br>
+        <input type="radio" name="ticketSalesAvailability" value="Mult peste așteptări"> Mult peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="Peste așteptări"> Peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="La nivelul așteptărilor"> La nivelul așteptărilor<br>
+        <input type="radio" name="ticketSalesAvailability" value="Sub așteptări"> Sub așteptări<br>
+
+        <label>Ținuta personalului</label><br>
+        <input type="radio" name="ticketSalesAvailability" value="Mult peste așteptări"> Mult peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="Peste așteptări"> Peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="La nivelul așteptărilor"> La nivelul așteptărilor<br>
+        <input type="radio" name="ticketSalesAvailability" value="Sub așteptări"> Sub așteptări<br>
+        
+        
+        <h3>Ce părere aveți despre condițiile de călătorie oferite în vagoanele de clasă?</h3>
+        <label>Curățenia compartimentelor</label><br>
+        <input type="radio" name="ticketSalesAvailability" value="Mult peste așteptări"> Mult peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="Peste așteptări"> Peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="La nivelul așteptărilor"> La nivelul așteptărilor<br>
+        <input type="radio" name="ticketSalesAvailability" value="Sub așteptări"> Sub așteptări<br>
+
+        <label>Temperatura în compartimente</label><br>
+        <input type="radio" name="ticketSalesAvailability" value="Mult peste așteptări"> Mult peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="Peste așteptări"> Peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="La nivelul așteptărilor"> La nivelul așteptărilor<br>
+        <input type="radio" name="ticketSalesAvailability" value="Sub așteptări"> Sub așteptări<br>
+
+        <label>Iluminatul în compartimente</label><br>
+        <input type="radio" name="ticketSalesAvailability" value="Mult peste așteptări"> Mult peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="Peste așteptări"> Peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="La nivelul așteptărilor"> La nivelul așteptărilor<br>
+        <input type="radio" name="ticketSalesAvailability" value="Sub așteptări"> Sub așteptări<br>
+        
+        <label>Curățenia/dotarea toaletelor</label><br>
+        <input type="radio" name="ticketSalesAvailability" value="Mult peste așteptări"> Mult peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="Peste așteptări"> Peste așteptări<br>
+        <input type="radio" name="ticketSalesAvailability" value="La nivelul așteptărilor"> La nivelul așteptărilor<br>
+        <input type="radio" name="ticketSalesAvailability" value="Sub așteptări"> Sub așteptări<br>
+        
+        <h3>Îți mulțumim pentru timpul acordat!</h3>
+        <label>
+            <input type="checkbox" name="consent" required> Sunt de acord ca datele cu caracter personal înregistrate în formular să poată fi utilizate în scop statistic și de arhivare
+        </label><br>
+
+        <button type="submit">Trimite</button>
+
+       
+    </form>
+</body>
+</html>
